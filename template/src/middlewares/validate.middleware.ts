@@ -39,7 +39,6 @@ export const validateDto = (dtoClass: any) => {
                 throw new ApiError(400, `Validation failed: ${errorMessages}`, formattedErrors);
             }
 
-            // Replace req.body with validated and transformed DTO instance
             req.body = dtoInstance;
             next();
         } catch (error) {
