@@ -412,11 +412,4 @@ A: Absolutely! The generated code is yours to modify.
 
 MIT License - see [LICENSE](LICENSE) file for details.
 
-## Support
-
-- 📖 [Documentation](https://github.com/yourusername/stackseed/wiki)
-- 🐛 [Issue Tracker](https://github.com/yourusername/stackseed/issues)
-- 💬 [Discussions](https://github.com/yourusername/stackseed/discussions)
-
----
 
