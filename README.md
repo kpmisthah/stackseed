@@ -73,7 +73,7 @@ nano .env
 npm run dev
 ```
 
-Your backend is now running at `http://localhost:5000` 🚀
+Your backend is now running at `http://localhost:5000` 
 
 ## Project Structure
 
@@ -420,4 +420,3 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-**Built with ❤️ for developers who value clean architecture and fast iteration.**
