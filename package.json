@@ -1,6 +1,6 @@
 {
   "name": "stackseed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI-first backend boilerplate generator for production-ready Node.js applications",
   "bin": {
     "stackseed": "./dist/index.js"
