@@ -1,0 +1,54 @@
+{
+  "name": "stackseed",
+  "version": "1.0.0",
+  "description": "CLI-first backend boilerplate generator for production-ready Node.js applications",
+  "bin": {
+    "stackseed": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "template"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "backend",
+    "boilerplate",
+    "cli",
+    "typescript",
+    "express",
+    "mongodb",
+    "authentication",
+    "jwt",
+    "validation",
+    "starter",
+    "template",
+    "generator",
+    "scaffold"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/stackseed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/stackseed/issues"
+  },
+  "homepage": "https://github.com/yourusername/stackseed#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.2",
+    "fs-extra": "^11.3.3",
+    "inquirer": "^8.2.7"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.9",
+    "@types/node": "^25.0.9",
+    "typescript": "^5.9.3"
+  }
+}
