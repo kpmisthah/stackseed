@@ -7,7 +7,8 @@
   },
   "files": [
     "dist",
-    "template"
+    "template",
+    "README.md"
   ],
   "scripts": {
     "build": "tsc",
@@ -33,12 +34,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/stackseed.git"
+    "url": "https://github.com/kpmisthah/stackseed"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/stackseed/issues"
+    "url": "https://github.com/kpmisthah/stackseed/issues"
   },
-  "homepage": "https://github.com/yourusername/stackseed#readme",
+  "homepage": "https://github.com/kpmisthah/stackseed/blob/main/README.md",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^14.0.2",

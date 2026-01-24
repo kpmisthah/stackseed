@@ -359,7 +359,7 @@ npm run build
 
 ```bash
 # Clone the StackSeed repository
-git clone https://github.com/yourusername/stackseed.git
+git clone https://github.com/kpmisthah/stackseed.git
 cd stackseed
 
 # Install dependencies
