@@ -11,13 +11,11 @@ import { ApiError } from '../utils/ApiError';
 export const validateDto = (dtoClass: any) => {
     return async (req: Request, res: Response, next: NextFunction) => {
         try {
-            // Transform plain object to class instance
             const dtoInstance = plainToInstance(dtoClass, req.body);
 
-            // Validate the instance
             const errors: ValidationError[] = await validate(dtoInstance, {
-                whitelist: true, // Strip properties that don't have decorators
-                forbidNonWhitelisted: true, // Throw error if non-whitelisted properties are present
+                whitelist: true,
+                forbidNonWhitelisted: true,
                 skipMissingProperties: false,
             });
 
