@@ -153,4 +153,4 @@ Be respectful, inclusive, and professional. We're all here to build something gr
 
 ---
 
-Thank you for contributing to StackSeed! 🚀
+Thank you for contributing to StackSeed
